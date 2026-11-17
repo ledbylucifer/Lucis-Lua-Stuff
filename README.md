@@ -7,5 +7,4 @@ Feel free to look, copy and use them, if you're willing to.
 
 
 -- little note>>
--- some files (especially in Luatesting) are probably incomplete, out of place or not even in english. But eh, keep in mind its my 
--- place for tests so dont bully me!.. even if the code sucks..
+some files (especially in Luatesting) are probably incomplete, out of place or not even in english. But eh, keep in mind its my place for tests so dont bully me!.. even if the code sucks..
