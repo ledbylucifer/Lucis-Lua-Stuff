@@ -1,4 +1,6 @@
-# LuaTesting
-Stuff about LuaJIT. Testing.. Notes.. Datastructure..
+# Lua Stuff
+Stuff about LuaJIT. -- Testing.. Projects..
 
-Also, uh.. cool fact i guess, this is basically my whole folder of Lua Testing. Therefore, everything i make is tested here first. Which is good for beginners incase they want to learn certain things in here ..for some reason. So yeah! Feel free to look, read and copy my code. Just.. don't.. bully me. Things here are just for testing!
+Anyways uh.. this is my git page of lua stuff. It's basically where i'm leaving my projects and files. I made this just for fun but this could be used to help others i guess.. -- not sure why would anyone use this
+
+Feel free to look, copy and use them, if you're willing to. 
