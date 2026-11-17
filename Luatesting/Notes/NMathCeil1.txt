@@ -1,0 +1,43 @@
+
+### Mais 
+
+math.ceil(x) --> é basicamente a mesma coisa que math.floor(x),
+             -- só que ao contrario. Retorna o maior número 
+             -- inteiro que seja igual ou maior que x. Ou seja,
+             -- nesse contexto de "maior", é o número inteiro
+             -- que vem logo depois de x. Por exemplo, qual o
+             -- número que é maior ou igual que 1.1? 2. Mas, 
+             -- isso seria errado, pois há infinitos números 
+             -- maiores que 1.1, porém, nesse contexto, "maior"
+             -- é basicamente o número inteiro que vem logo 
+             -- após 1.1. Mas, resumindo, é basicamente o menor
+             -- número inteiro que seja maior ou igual a 1.1. 
+
+Ou seja, math.ceil(3.3) retorna 4, pois na reta numérica:
+
+3     3.3     4
+|------|------|   ------> também, 3.3 < 4, ou seja, é 4. 
+
+Qual é o número inteiro que é igual ou maior que 3.3? 4.
+|
+Também da pra saber assim: 3.. 3.4, 3.5.. 4, 5, 6, 7, 8, 9, 10
+Qual é o número inteiro que é igual ou maior que 3.3? mesma
+coisa, é 4. Se fosse math.ceil(3), seria 3, pois qual seria o 
+número inteiro maior ou igual a 3? 3. 
+
+### Menos
+
+math.ceil(x) --> basicamente a mesma coisa só que com negativo
+
+Ou seja, math.ceil(-3.3) daria -3, pois:
+
+-4      -3.3       -3
+|---------|---------|    ---> -4 < -3.3 < -3 
+
+Qual é o número inteiro igual ou maior que -3.3? -3.
+|
+Também da pra visualizar assim: -4..-3.1..-3.2..-3.3..-3, -4,
+Qual o número inteiro que é igual ou maior que -3.3? -3. 
+É estranho mas vale lembrar que negativo vai pra esquerda,
+enquanto positivo vai para direita. Então "maior" seria pra
+direita. Menor para esquerda. 

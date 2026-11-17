@@ -1,0 +1,10 @@
+
+> As seguintes palavras sao reservadas, nao da pra usar elas como
+> identificadores:
+
+	and      break      do      else      elseif
+	end      false      for     function  if
+	in       local      nil     not       or 
+	repeat   return     then    true      until 
+	while 
+	

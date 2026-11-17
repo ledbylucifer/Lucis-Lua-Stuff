@@ -1,0 +1,26 @@
+
+### Mais
+
+math.modf(x)   --> separa um número em duas partes: a parte
+               -- inteira e a parte decimal. 
+
+math.modf(3.3) retorna '3   0.3' pois: 3.3 == 3 + (0.3) 
+                                 -- deixando claro, pq é 3.3?
+                                 -- pois no 3.3, o 3 == 3.0.
+Da pra separar assim:            -- ou seja, 3.3 == 3.0 + 0.3
+
+3.3                                
+| |
+| |---> 0.3 -> parte decimal     
+|---> 3 -> parte inteira
+
+### Menos
+
+math.modf(-3.3) retorna '-3   -0.3' pois: -3.3 == -3 + (-0.3)
+ 
+Da pra separar assim:
+
+-3.3
+ | |
+ | |--> -0.3 -> parte decimal
+ |---> -3 -> parte inteira

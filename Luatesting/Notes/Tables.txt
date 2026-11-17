@@ -1,0 +1,139 @@
+
+### Tables 
+
+Basicamente, é como se fosse uma mesa que guarda valores.
+Por exemplo: 
+|
+| a = {1,2,3,4,"valor",6}
+|
+como da pra ver, 'a' está guardando 6 valores. Entao, 'a[1]' é '1', pois
+na posiçao 1 de 'a', tem '1'. 'a[5]' é "valor", pois na posição 5 de 'a',
+tem 'valor'. Mas, como eu printo tal valor? simples. 'print(a[5])', isso
+print 'valor', pois na posiçao 5 de 'a', tem 'valor'.
+
+# Referencias
+|
+| a = {}
+| k = "x"
+| a[k] = 10
+| a[20] = "great"      -- basicamente, 20 em 'a' tem valor de "great". 
+| 
+| -- dai, se eu fazer 'k = 20'
+| k = 20
+| -- e printar isso no 'a'
+| print(a[k])	-- vai dar "great", pois 20 no 'a' é igual a "great"
+| 
+| -- e matemática? 
+|  
+| a["x"] = a["x"] + 1 	--> incrementa entrada 'x' 
+| print(a["x"])			--> 11, pois 'x' é igual a 'k' que é '10'.
+|						-- mas isso é estranho.. 'k' é '20'. Como isso
+| 						-- funciona? basicamente, por conta das "", 'x'
+|						-- naquele código é uma "string", ele acha a 
+|						-- string chave "x" que contém o número 10. 
+|
+#
+
+# 'for i'
+|
+| a = {}
+|
+| -- cria 10000 novas entradas, ou seja, 10000 espaços vazios. 
+| for i = 1, 10000 do 
+|  a[i] = i*2            -- multiplicando cada entrada por 2
+| end
+| print(a[9])			 -- 18, pois a[9] = 9, mas como é i*2, multiplicou
+|						 -- por 2. 
+| a["x"] = 10
+| print(a["x"])  --> 10, pois a string "x" no 'a' tem valor '10'.
+| print(a["y"])  --> nil, pois a string "y" no 'a' nao tem valor definido.
+|
+#
+.
+.	Vale deixar claro que esse código do 'for i', ele cria 10000 espaços
+... vazios E já preenche eles por conta da multiplicacao.
+
+
+# Strings
+|
+| local a = {
+|  x = 10, 
+|  y = 20
+| }
+|
+| print(a.x)	--> 10, pois o valor 'x' em 'a' é 10. 
+| print(a.y)    --> 20, pois o valor 'y' em 'a' é 20. 
+| 
+| -- para ter mais certeza.. 
+| if a.x == 10 and a.y == 20 then
+|  return("exato") 						-- vai printar "exato", pois ta
+| else 									-- certo. 
+|  return("errado")
+| end
+|					 
+#
+
+# 2 valores em um só?
+|
+| a = {}
+| x = "y" 
+| a[x] = 10 
+|
+| print(a[x])	--> 10, pois 'x' no 'a' é 10.
+| print(a.x)	--> nil, pois nao foi definido em 'a'
+| print(a.y)    --> 10, pois se 'x' é igual a 'y', e 'x' é igual a 10,
+|				-- vai dar 10. é basicamente 2 valores em um só. 
+|
+#
+
+# 'io.read'
+|
+| a = {}
+| for i = 1, 10 do			--> basicamente esse código faz com que o
+|  a[i] = io.read() 		-- io.read() dê valores para cada lugar vazio
+| end						-- em 'a'. 
+|
+| -- E se eu quiser printar tudo? 
+| b = {1,2,3,4,5,6} 		 
+| for i = 1, #b do  		-- basicamente, vai dar em 6. Pois o '#b'
+|  print(b[i])				-- tem funçao de basicamente mostrar tudo. 
+| end						-- Ou seja, vai percorrendo de linha por 
+|							-- linha, por isso que aqui, '#b = 6'.
+|
+| -- da pra ser uma string? sim
+| a = {1,2,3,4,5,"sim"}
+| print(a[#a])				-- printa o ultimo valor de 'a', que é 'sim'
+| a[#a] = nil				--> remove o ultimo valor
+| a[#a + 1] = v               --> bota 'v' no final da lista
+#
+
+# 'tonumber'
+|
+| local i = 10
+| local j = "10"
+| local k = "+10"
+| 
+| a = {}
+| 
+| a[i] = "uma string"
+| a[j] = "outra string"
+| a[k] = "mais outra string"
+| 
+| print(a[j]) --> 'outra string'
+| print(a[k]) --> 'mais outra string'
+| print(a[tonumber(k)]) --|
+| print(a[tonumber(j)])	--> "uma string", pois tonumber significa botar em
+|						-- numero.
+|
+#
+
+# 'table.maxn'
+|
+| a = {} 
+| a[10000] = 1
+| print(table.maxn(a)) 	--> 'maxn = numerico maximo'. Ou seja, o maxn nao
+|						-- ve o valor armazenado, só percorre a table
+|						-- tentando achar o maior indice, que é 100000.
+|                       -- Ou seja, esse código printa 10000.
+#
+

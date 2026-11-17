@@ -1,0 +1,44 @@
+
+### Mais
+
+math.floor(x) --> x, pois retorna o maior número inteiro que 
+	      -- seja igual ou menor a x.
+
+Por exemplo, math.floor(3.3) retorna 3 pois, na reta númerica, 
+é exatamente assim:
+
+math.floor(3.3)
+
+3        3.3        4
+|---------@---------|
+
+Quais inteiros sao menores ou iguais a 3.3?
+| ..., 0, 1, 2, 3
+Ou seja, 3. Pois: qual o número inteiro entre 3 e 4?
+ 
+3        3.3        4
+|---------@---------|       ---> pq nao 4? pois 4 > 3.3, mas 3
+int      num        int     serve pois 3 < 3.3
+
+Qual numero inteiro que é menor ou igual? 3. 
+
+E se fosse math.floor(3)? ia dar 3, pois o número inteiro que é
+menor ou igual a 3 é 3. 
+
+### Menos
+
+Denovo:
+math.floor(x) --> retorna o valor de número inteiro que é menor
+              -- ou igual a x.
+
+Ou seja, math.floor(-3.3) daria -4, pois:
+
+-4   -3.3    -3
+|------|------|    --> deixando claro, -4 < -3.3 < -3
+                   -- ou seja, menor ou igual a -3.3 é -4.
+
+Qual é o inteiro que é menos ou igual a -3.3? -4. 
+
+E se fosse math.floor(-3)? ia dar -3 pois, qual número é igual
+ou menor a -3? -3. 
+
