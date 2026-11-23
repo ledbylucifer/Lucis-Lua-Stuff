@@ -2,7 +2,7 @@
 > Now.. since i plan of using CSS and HTML
 > i made this!
 
-base 
+base/
 |
 |-- index.html
 |-- style.css
