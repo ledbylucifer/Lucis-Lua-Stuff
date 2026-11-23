@@ -1,0 +1,26 @@
+
+base
+|
+|-- Dev
+|   |
+|   |-- Sounds
+|   |-- Menus
+|   |-- Dialogues
+|   |-- Maps
+|   |-- Sprites
+|   |   |
+|   |   |-- Items
+|   |   |   |
+|   |   |   |-- Misc
+|   |   |
+|   |   |-- Characters
+|   |   |-- Objects
+|   |   |-- Material
+|   |   |-- Effects
+|   |   |-- Others
+|   |
+|   |-- Others
+|
+|-- Programming
+|-- Testing
+|-- Lore
