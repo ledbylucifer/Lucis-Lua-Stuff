@@ -1,0 +1,10 @@
+
+> Now.. since i plan of using CSS and HTML
+> i made this!
+
+base 
+|
+|-- index.html
+|-- style.css
+|-- images/
+|-- downloads/
