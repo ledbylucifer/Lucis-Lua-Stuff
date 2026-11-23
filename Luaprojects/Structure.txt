@@ -1,5 +1,5 @@
 
-> This is the file structure i do to make shit.
+> This is the file structure i do to make games.
 > Normally, the 'Lore' folder is deleted so there would be hidden stuff!
 > And why isnt the testing folder deleted also? because.. its like some easter egg shit lmaozz
 
