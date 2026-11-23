@@ -3,28 +3,28 @@
 > Normally, the 'Lore' folder is deleted so there would be hidden stuff!
 > And why isnt the testing folder deleted also? because.. its like some easter egg shit hah
 
-base
+base/
 |
-|-- Dev
+|-- Dev/
 |   |
-|   |-- Sounds
-|   |-- Menus
-|   |-- Dialogues
-|   |-- Maps
-|   |-- Sprites
+|   |-- Sounds/
+|   |-- Menus/
+|   |-- Dialogues/
+|   |-- Maps/
+|   |-- Sprites/
 |   |   |
-|   |   |-- Items
+|   |   |-- Items/
 |   |   |   |
-|   |   |   |-- Misc
+|   |   |   |-- Misc/
 |   |   |
-|   |   |-- Characters
-|   |   |-- Objects
-|   |   |-- Material
-|   |   |-- Effects
-|   |   |-- Others
+|   |   |-- Characters/
+|   |   |-- Objects/
+|   |   |-- Material/
+|   |   |-- Effects/
+|   |   |-- Others/
 |   |
-|   |-- Others
+|   |-- Others/
 |
-|-- Programming
-|-- Testing
-|-- Lore
+|-- Programming/
+|-- Testing/
+|-- Lore/
